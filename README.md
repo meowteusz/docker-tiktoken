@@ -30,7 +30,7 @@ Access the interactive API documentation at `http://localhost:8000/docs`
 ### Count Tokens
 
 ```bash
-curl -X POST "http://localhost:8000/count_tokens" \
+curl -X POST "http://localhost:8000/count" \
 -H "Content-Type: application/json" \
 -d '{
     "text": "Hello, world!",
